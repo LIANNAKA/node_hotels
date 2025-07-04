@@ -6,12 +6,6 @@ const mongoose = require('mongoose');
 // set up mogodb connection
 mongoose.connect('mongodb://localhost:27017/hotels');
 
-//this is depricated
-// mongoose.connect(mongoURL,{
-//     useNewUrlParser: true, // must code
-//     useUnifiedtopology: true // must code
-// })
-
 //get the default connection
 // Mongoose maintains a default connection object representing the MongoDB connection
 
